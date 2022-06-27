@@ -17,24 +17,24 @@ class prime1
       
        int i=2;
 while(i<=N)
-{
+       {
 
- if(i%N==0)
+         if(i%N==0)
 
-    break;
-i++;
-}
+          break;
+          i++;
+         }
 
-if(N==i)
+        if(N==i)
 
-System.out.println(+N+" is a Prime Number");
+         System.out.println(+N+" is a Prime Number");
 
-else
+         else
 
-System.out.println(+N+" is Not a Prime Number");
+         System.out.println(+N+" is Not a Prime Number");
   
 
+                }
      }
-}
 
  
